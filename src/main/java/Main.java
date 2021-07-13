@@ -1,2 +1,4 @@
 // 提出用
-public class Main {}
+public class Main {
+  //
+}
