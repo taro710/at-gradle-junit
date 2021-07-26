@@ -1,8 +1,10 @@
+package at.abc.a;
+// パッケージ名は含めない
+
 import java.util.Scanner;
 
-// 提出用
-public class Main {
-  //
+// クラス名はMain
+public class ABC195 {
   // ##########################################
   public static void main(String... args) {
     Scanner scanner = new Scanner(System.in);
@@ -12,4 +14,9 @@ public class Main {
     System.out.println(h % m == 0 ? "Yes" : "No");
   }
   // ##########################################
+
+  // テスト用
+  public static String answer(long m, long h) {
+    return h % m == 0 ? "Yes" : "No";
+  }
 }
