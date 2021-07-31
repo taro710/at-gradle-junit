@@ -1,8 +1,10 @@
+package at.abc.a;
+// パッケージ名は含めない
+
 import java.util.Scanner;
 
-// 提出用
-public class Main {
-  //
+// クラス名はMain
+public class ABC193 {
   // ##########################################
   public static void main(String... args) {
     Scanner scanner = new Scanner(System.in);
@@ -12,4 +14,9 @@ public class Main {
     System.out.println(((a - b) / a) * 100);
   }
   // ##########################################
+
+  // テスト用
+  public static double answer(double a, double b) {
+    return ((a - b) / a) * 100;
+  }
 }
