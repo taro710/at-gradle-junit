@@ -1,10 +1,11 @@
+package at.abc.b;
 // パッケージ名は含めない
 
 import java.util.List;
 import java.util.Scanner;
 
 // クラス名はMain
-public class Main {
+public class ABC192 {
   // ##########################################
   public static void main(String... args) {
     Scanner scanner = new Scanner(System.in);
