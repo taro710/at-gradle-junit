@@ -1,9 +1,11 @@
+package at.abc.a;
+// パッケージ名は含めない
+
 import java.util.Scanner;
 
-// 提出用
-public class Main {
-  //
-  // ##########################################
+// クラス名はMain
+public class ABC214 {
+
   public static void main(String... args) {
     Scanner scanner = new Scanner(System.in);
     int n = Integer.parseInt(scanner.next());
@@ -16,5 +18,15 @@ public class Main {
       System.out.println(8);
     }
   }
-  // ##########################################
+
+  // テスト用
+  public static int answer(int n) {
+    if (n <= 125) {
+      return (4);
+    } else if (n <= 211) {
+      return (6);
+    } else {
+      return (8);
+    }
+  }
 }
