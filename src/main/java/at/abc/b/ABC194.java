@@ -1,3 +1,4 @@
+package at.abc.b;
 // パッケージ名は含めない
 
 import java.util.ArrayList;
@@ -6,7 +7,9 @@ import java.util.List;
 import java.util.Scanner;
 
 // クラス名はMain
-public class Main {
+public class ABC194 {
+  // パッケージ名は含めない
+
   // ##########################################
   public static void main(String... args) {
 
