@@ -30,10 +30,10 @@ public class ABC197 {
     }
     System.out.println(count);
 
-    String[] 横一列 = list.get(x - 1);
+    String[] yokoichiretsu = list.get(x - 1);
     // 対象地点より左を調べる（#が出るまでいくつの.があるか
     for (int i = y - 2; i >= 0; i--) {
-      if (横一列[i].equals(".")) {
+      if (yokoichiretsu[i].equals(".")) {
         count++;
       } else {
         break;
@@ -42,7 +42,7 @@ public class ABC197 {
     System.out.println(count);
     // 対象地点より右を調べる（#が出るまでいくつの.があるか
     for (int i = y; i <= y; i++) {
-      if (横一列[i].equals(".")) {
+      if (yokoichiretsu[i].equals(".")) {
         count++;
       } else {
         break;

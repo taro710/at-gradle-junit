@@ -1,10 +1,11 @@
+package at.abc.a;
 // パッケージ名は含めない
 
 import java.util.Scanner;
 
 // クラス名はMain
-public class Main {
-  // ##########################################
+public class ABC218 {
+
   public static void main(String... args) {
     Scanner scanner = new Scanner(System.in);
     int n = Integer.parseInt(scanner.next());
@@ -18,5 +19,15 @@ public class Main {
       System.out.println("No");
     }
   }
-  // ##########################################
+
+  // テスト用
+  public static String answer(int n, String s) {
+    String string = String.valueOf(s.charAt(n - 1));
+
+    if (string.equals("o")) {
+      return "Yes";
+    } else {
+      return "No";
+    }
+  }
 }
